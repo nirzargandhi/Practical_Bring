@@ -2,8 +2,6 @@
 //  Practical_Bring_WeatherTests.swift
 //  Practical_Bring_WeatherTests
 //
-//  Created by Nirzar Gandhi on 28/09/23.
-//
 
 import XCTest
 @testable import Practical_Bring_Weather

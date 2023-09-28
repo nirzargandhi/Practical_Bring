@@ -2,8 +2,6 @@
 //  Practical_Bring_WeatherUITestsLaunchTests.swift
 //  Practical_Bring_WeatherUITests
 //
-//  Created by Nirzar Gandhi on 28/09/23.
-//
 
 import XCTest
 

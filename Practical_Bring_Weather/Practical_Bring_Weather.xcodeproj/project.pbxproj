@@ -8,14 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		E6CF81272AC5E1C9008D9615 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CF81262AC5E1C9008D9615 /* AppDelegate.swift */; };
-		E6CF81292AC5E1C9008D9615 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CF81282AC5E1C9008D9615 /* SceneDelegate.swift */; };
-		E6CF812B2AC5E1C9008D9615 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CF812A2AC5E1C9008D9615 /* ViewController.swift */; };
-		E6CF812E2AC5E1C9008D9615 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6CF812C2AC5E1C9008D9615 /* Main.storyboard */; };
-		E6CF81302AC5E1CC008D9615 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6CF812F2AC5E1CC008D9615 /* Assets.xcassets */; };
 		E6CF81332AC5E1CC008D9615 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6CF81312AC5E1CC008D9615 /* LaunchScreen.storyboard */; };
 		E6CF813E2AC5E1CD008D9615 /* Practical_Bring_WeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CF813D2AC5E1CD008D9615 /* Practical_Bring_WeatherTests.swift */; };
 		E6CF81482AC5E1CD008D9615 /* Practical_Bring_WeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CF81472AC5E1CD008D9615 /* Practical_Bring_WeatherUITests.swift */; };
 		E6CF814A2AC5E1CD008D9615 /* Practical_Bring_WeatherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CF81492AC5E1CD008D9615 /* Practical_Bring_WeatherUITestsLaunchTests.swift */; };
+		E6CF815B2AC5FE97008D9615 /* AppDelegate+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CF815A2AC5FE97008D9615 /* AppDelegate+Configuration.swift */; };
+		E6CF815F2AC5FF29008D9615 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CF815E2AC5FF29008D9615 /* UIView+Extension.swift */; };
+		E6CF81612AC5FF7F008D9615 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CF81602AC5FF7F008D9615 /* UIViewController+Extension.swift */; };
+		E6CF81682AC6001A008D9615 /* ServiceRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CF81632AC6001A008D9615 /* ServiceRequest.swift */; };
+		E6CF81692AC6001A008D9615 /* ApiCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CF81642AC6001A008D9615 /* ApiCall.swift */; };
+		E6CF816B2AC6001A008D9615 /* GeneralResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CF81672AC6001A008D9615 /* GeneralResponseModel.swift */; };
+		E6CF816E2AC60024008D9615 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CF816D2AC60024008D9615 /* Constants.swift */; };
+		E6CF81752AC60030008D9615 /* ConnectionCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CF81702AC6002F008D9615 /* ConnectionCheck.swift */; };
+		E6CF81772AC60030008D9615 /* JailbreakDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CF81732AC60030008D9615 /* JailbreakDetector.swift */; };
+		E6CF81782AC60030008D9615 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CF81742AC60030008D9615 /* Utility.swift */; };
+		E6CF817B2AC60E77008D9615 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6CF817A2AC60E77008D9615 /* Main.storyboard */; };
+		E6CF818B2AC60E8E008D9615 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6CF817E2AC60E8D008D9615 /* Assets.xcassets */; };
+		E6CF818C2AC60E8E008D9615 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6CF81802AC60E8D008D9615 /* Color.xcassets */; };
+		E6CF818D2AC60E8E008D9615 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E6CF81822AC60E8D008D9615 /* Inter-Medium.ttf */; };
+		E6CF818E2AC60E8E008D9615 /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E6CF81832AC60E8D008D9615 /* Inter-Light.ttf */; };
+		E6CF818F2AC60E8E008D9615 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E6CF81842AC60E8D008D9615 /* Inter-Thin.ttf */; };
+		E6CF81902AC60E8E008D9615 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E6CF81852AC60E8D008D9615 /* Inter-Bold.ttf */; };
+		E6CF81912AC60E8E008D9615 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E6CF81862AC60E8D008D9615 /* Inter-Regular.ttf */; };
+		E6CF81922AC60E8E008D9615 /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E6CF81872AC60E8D008D9615 /* Inter-ExtraBold.ttf */; };
+		E6CF81932AC60E8E008D9615 /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E6CF81882AC60E8D008D9615 /* Inter-ExtraLight.ttf */; };
+		E6CF81942AC60E8E008D9615 /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E6CF81892AC60E8D008D9615 /* Inter-Black.ttf */; };
+		E6CF81952AC60E8E008D9615 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E6CF818A2AC60E8D008D9615 /* Inter-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,10 +56,6 @@
 /* Begin PBXFileReference section */
 		E6CF81232AC5E1C9008D9615 /* Practical_Bring_Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practical_Bring_Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6CF81262AC5E1C9008D9615 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E6CF81282AC5E1C9008D9615 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E6CF812A2AC5E1C9008D9615 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E6CF812D2AC5E1C9008D9615 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E6CF812F2AC5E1CC008D9615 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6CF81322AC5E1CC008D9615 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6CF81342AC5E1CC008D9615 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6CF81392AC5E1CD008D9615 /* Practical_Bring_WeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Practical_Bring_WeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +63,28 @@
 		E6CF81432AC5E1CD008D9615 /* Practical_Bring_WeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Practical_Bring_WeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6CF81472AC5E1CD008D9615 /* Practical_Bring_WeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practical_Bring_WeatherUITests.swift; sourceTree = "<group>"; };
 		E6CF81492AC5E1CD008D9615 /* Practical_Bring_WeatherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practical_Bring_WeatherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E6CF815A2AC5FE97008D9615 /* AppDelegate+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Configuration.swift"; sourceTree = "<group>"; };
+		E6CF815E2AC5FF29008D9615 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		E6CF81602AC5FF7F008D9615 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		E6CF81632AC6001A008D9615 /* ServiceRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceRequest.swift; sourceTree = "<group>"; };
+		E6CF81642AC6001A008D9615 /* ApiCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiCall.swift; sourceTree = "<group>"; };
+		E6CF81672AC6001A008D9615 /* GeneralResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralResponseModel.swift; sourceTree = "<group>"; };
+		E6CF816D2AC60024008D9615 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E6CF81702AC6002F008D9615 /* ConnectionCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionCheck.swift; sourceTree = "<group>"; };
+		E6CF81732AC60030008D9615 /* JailbreakDetector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JailbreakDetector.swift; sourceTree = "<group>"; };
+		E6CF81742AC60030008D9615 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		E6CF817A2AC60E77008D9615 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E6CF817E2AC60E8D008D9615 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6CF81802AC60E8D008D9615 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		E6CF81822AC60E8D008D9615 /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		E6CF81832AC60E8D008D9615 /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light.ttf"; sourceTree = "<group>"; };
+		E6CF81842AC60E8D008D9615 /* Inter-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Thin.ttf"; sourceTree = "<group>"; };
+		E6CF81852AC60E8D008D9615 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		E6CF81862AC60E8D008D9615 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		E6CF81872AC60E8D008D9615 /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		E6CF81882AC60E8D008D9615 /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
+		E6CF81892AC60E8D008D9615 /* Inter-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Black.ttf"; sourceTree = "<group>"; };
+		E6CF818A2AC60E8D008D9615 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +135,10 @@
 		E6CF81252AC5E1C9008D9615 /* Practical_Bring_Weather */ = {
 			isa = PBXGroup;
 			children = (
-				E6CF81262AC5E1C9008D9615 /* AppDelegate.swift */,
-				E6CF81282AC5E1C9008D9615 /* SceneDelegate.swift */,
-				E6CF812A2AC5E1C9008D9615 /* ViewController.swift */,
-				E6CF812C2AC5E1C9008D9615 /* Main.storyboard */,
-				E6CF812F2AC5E1CC008D9615 /* Assets.xcassets */,
-				E6CF81312AC5E1CC008D9615 /* LaunchScreen.storyboard */,
-				E6CF81342AC5E1CC008D9615 /* Info.plist */,
+				E6CF81562AC5E25C008D9615 /* AppDelegate */,
+				E6CF81582AC5FE74008D9615 /* Common */,
+				E6CF81572AC5E26F008D9615 /* Designs */,
+				E6CF817C2AC60E8D008D9615 /* Resources */,
 			);
 			path = Practical_Bring_Weather;
 			sourceTree = "<group>";
@@ -125,6 +158,139 @@
 				E6CF81492AC5E1CD008D9615 /* Practical_Bring_WeatherUITestsLaunchTests.swift */,
 			);
 			path = Practical_Bring_WeatherUITests;
+			sourceTree = "<group>";
+		};
+		E6CF81562AC5E25C008D9615 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				E6CF81262AC5E1C9008D9615 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		E6CF81572AC5E26F008D9615 /* Designs */ = {
+			isa = PBXGroup;
+			children = (
+				E6CF81312AC5E1CC008D9615 /* LaunchScreen.storyboard */,
+				E6CF817A2AC60E77008D9615 /* Main.storyboard */,
+			);
+			path = Designs;
+			sourceTree = "<group>";
+		};
+		E6CF81582AC5FE74008D9615 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E6CF81622AC6001A008D9615 /* API Call */,
+				E6CF816C2AC60024008D9615 /* Constants */,
+				E6CF81592AC5FE8A008D9615 /* Extensions */,
+				E6CF81962AC60FB1008D9615 /* Plist File */,
+				E6CF816F2AC6002F008D9615 /* Reachability */,
+				E6CF81712AC60030008D9615 /* Utility */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E6CF81592AC5FE8A008D9615 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E6CF815A2AC5FE97008D9615 /* AppDelegate+Configuration.swift */,
+				E6CF815E2AC5FF29008D9615 /* UIView+Extension.swift */,
+				E6CF81602AC5FF7F008D9615 /* UIViewController+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E6CF81622AC6001A008D9615 /* API Call */ = {
+			isa = PBXGroup;
+			children = (
+				E6CF81642AC6001A008D9615 /* ApiCall.swift */,
+				E6CF81662AC6001A008D9615 /* Model */,
+				E6CF81632AC6001A008D9615 /* ServiceRequest.swift */,
+			);
+			path = "API Call";
+			sourceTree = "<group>";
+		};
+		E6CF81662AC6001A008D9615 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E6CF81672AC6001A008D9615 /* GeneralResponseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E6CF816C2AC60024008D9615 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				E6CF816D2AC60024008D9615 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		E6CF816F2AC6002F008D9615 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				E6CF81702AC6002F008D9615 /* ConnectionCheck.swift */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		E6CF81712AC60030008D9615 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				E6CF81732AC60030008D9615 /* JailbreakDetector.swift */,
+				E6CF81742AC60030008D9615 /* Utility.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		E6CF817C2AC60E8D008D9615 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E6CF817F2AC60E8D008D9615 /* Colors */,
+				E6CF81812AC60E8D008D9615 /* Fonts */,
+				E6CF817D2AC60E8D008D9615 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E6CF817D2AC60E8D008D9615 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E6CF817E2AC60E8D008D9615 /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		E6CF817F2AC60E8D008D9615 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				E6CF81802AC60E8D008D9615 /* Color.xcassets */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		E6CF81812AC60E8D008D9615 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E6CF81892AC60E8D008D9615 /* Inter-Black.ttf */,
+				E6CF81852AC60E8D008D9615 /* Inter-Bold.ttf */,
+				E6CF81872AC60E8D008D9615 /* Inter-ExtraBold.ttf */,
+				E6CF81882AC60E8D008D9615 /* Inter-ExtraLight.ttf */,
+				E6CF81832AC60E8D008D9615 /* Inter-Light.ttf */,
+				E6CF81822AC60E8D008D9615 /* Inter-Medium.ttf */,
+				E6CF81862AC60E8D008D9615 /* Inter-Regular.ttf */,
+				E6CF818A2AC60E8D008D9615 /* Inter-SemiBold.ttf */,
+				E6CF81842AC60E8D008D9615 /* Inter-Thin.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E6CF81962AC60FB1008D9615 /* Plist File */ = {
+			isa = PBXGroup;
+			children = (
+				E6CF81342AC5E1CC008D9615 /* Info.plist */,
+			);
+			path = "Plist File";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +398,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6CF81332AC5E1CC008D9615 /* LaunchScreen.storyboard in Resources */,
-				E6CF81302AC5E1CC008D9615 /* Assets.xcassets in Resources */,
-				E6CF812E2AC5E1C9008D9615 /* Main.storyboard in Resources */,
+				E6CF81912AC60E8E008D9615 /* Inter-Regular.ttf in Resources */,
+				E6CF818C2AC60E8E008D9615 /* Color.xcassets in Resources */,
+				E6CF81902AC60E8E008D9615 /* Inter-Bold.ttf in Resources */,
+				E6CF81952AC60E8E008D9615 /* Inter-SemiBold.ttf in Resources */,
+				E6CF818B2AC60E8E008D9615 /* Assets.xcassets in Resources */,
+				E6CF81922AC60E8E008D9615 /* Inter-ExtraBold.ttf in Resources */,
+				E6CF818D2AC60E8E008D9615 /* Inter-Medium.ttf in Resources */,
+				E6CF81942AC60E8E008D9615 /* Inter-Black.ttf in Resources */,
+				E6CF818E2AC60E8E008D9615 /* Inter-Light.ttf in Resources */,
+				E6CF81932AC60E8E008D9615 /* Inter-ExtraLight.ttf in Resources */,
+				E6CF817B2AC60E77008D9615 /* Main.storyboard in Resources */,
+				E6CF818F2AC60E8E008D9615 /* Inter-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +434,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6CF812B2AC5E1C9008D9615 /* ViewController.swift in Sources */,
+				E6CF81682AC6001A008D9615 /* ServiceRequest.swift in Sources */,
+				E6CF81612AC5FF7F008D9615 /* UIViewController+Extension.swift in Sources */,
+				E6CF816B2AC6001A008D9615 /* GeneralResponseModel.swift in Sources */,
+				E6CF81752AC60030008D9615 /* ConnectionCheck.swift in Sources */,
+				E6CF81772AC60030008D9615 /* JailbreakDetector.swift in Sources */,
+				E6CF81782AC60030008D9615 /* Utility.swift in Sources */,
 				E6CF81272AC5E1C9008D9615 /* AppDelegate.swift in Sources */,
-				E6CF81292AC5E1C9008D9615 /* SceneDelegate.swift in Sources */,
+				E6CF815B2AC5FE97008D9615 /* AppDelegate+Configuration.swift in Sources */,
+				E6CF81692AC6001A008D9615 /* ApiCall.swift in Sources */,
+				E6CF815F2AC5FF29008D9615 /* UIView+Extension.swift in Sources */,
+				E6CF816E2AC60024008D9615 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +481,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E6CF812C2AC5E1C9008D9615 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E6CF812D2AC5E1C9008D9615 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E6CF81312AC5E1CC008D9615 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -444,7 +620,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Practical_Bring_Weather/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Practical_Bring_Weather/Common/Plist File/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Bring Weather";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -478,7 +654,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Practical_Bring_Weather/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Practical_Bring_Weather/Common/Plist File/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Bring Weather";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
