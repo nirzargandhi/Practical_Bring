@@ -28,6 +28,11 @@ class HelpVC: UIViewController {
         hideNavigationBar(isTabbar: true)
     }
 
+    //MARK: - UIButton Action Method
+    @IBAction func btnBackAction(_ sender: Any) {
+        self.navigationController?.popViewController(animated: true)
+    }
+
     //MARK: - Load URL Method
     private func loadURL() {
 

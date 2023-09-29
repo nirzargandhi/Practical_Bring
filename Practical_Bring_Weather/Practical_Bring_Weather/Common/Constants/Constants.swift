@@ -15,6 +15,7 @@ enum ViewControllerName {
 
     static let kTabbarVC = "TabbarVC"
     static let kHomeVC = "HomeVC"
+    static let kCityForecastVC = "CityForecastVC"
     static let kHelpVC = "HelpVC"
     static let kSettingVC = "SettingVC"
 }
@@ -22,6 +23,7 @@ enum ViewControllerName {
 //MARK: - Cell Identifiers
 enum CellIdentifiers {
 
+    static let kCellBookmarkCities = "CellBookmarkCities"
 }
 
 //MARK: - Message's
@@ -38,6 +40,10 @@ enum AlertMessage {
     static let msgError500 = "Error code 500 or more"
     static let msgError402 = "Payment required, go to coins packages"
     static let msgError403 = "User forbidden"
+
+    //City Bookmark Messages
+    static let msgCityBookmarkSuccess = "City bookmarked successfully"
+    static let msgCityAlreadyBookmark = "City is already bookmarked"
 
     //Data Clear Message
     static let msgDataClearSuccess = "Data has been cleared successfully"
@@ -68,32 +74,21 @@ enum WebServiceParameter {
 //MARK: - User Default
 enum UserDefaultsKey {
 
-    static let kBookMarkCity = "bookmark_city"
+    static let kBookmarkCities = "bookmark_cities"
     static let kUnitType = "unit_type" //1-Metric & 2-Imperial
 }
 
 //MARK: - DateTime Format
 enum DateAndTimeFormatString {
 
-    static let strDateFormat_yyyymmddHHmmss = "yyyy-MM-dd HH:mm:ss"
-    static let strDateFormat_yyyyMMdd = "yyyy/MM/dd"
     static let strDateFormate_hhmma = "hh:mm a"
-}
-
-//MARK: - Location Status Message
-enum LocationStatus {
-
-    static let kNotDetermined = "notDetermined"
-    static let kAuthorizedAlways = "authorizedAlways"
-    static let kAuthorizedWhenInUse = "authorizedWhenInUse"
-    static let kDenied = "denied"
-    static let kRestricted = "restricted"
 }
 
 //MARK: - Fonts
 enum Fonts {
 
     static let InterBold16 = UIFont(name: "Inter-Bold", size: 16) ?? UIFont.systemFont(ofSize: 16, weight: .bold)
+    static let InterRegular16 = UIFont(name: "Inter-Regular", size: 16) ?? UIFont.systemFont(ofSize: 16, weight: .regular)
     static let InterRegular14 = UIFont(name: "Inter-Regular", size: 14) ?? UIFont.systemFont(ofSize: 14, weight: .regular)
 }
 

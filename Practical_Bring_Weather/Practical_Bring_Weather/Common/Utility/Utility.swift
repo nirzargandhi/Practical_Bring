@@ -2,7 +2,6 @@
 //  Utility.swift
 //
 
-import CoreLocation
 import Foundation
 import UIKit
 
@@ -182,28 +181,4 @@ func getUserDefault(_ key: String) -> AnyObject? {
 
 func isKeyPresentInUserDefaults(key: String) -> Bool {
     return UserDefaults.standard.object(forKey: key) != nil
-}
-
-//MARK: - Location Enabled & Disabled Check Method
-func isLocationEnabled() -> (isEnabled : Bool, strStatus : String) {
-
-    if CLLocationManager.locationServicesEnabled() {
-
-        switch CLLocationManager.authorizationStatus() {
-
-        case .notDetermined:
-            return (false, LocationStatus.kNotDetermined)
-
-        case .authorizedAlways, .authorizedWhenInUse:
-            return (true, LocationStatus.kAuthorizedAlways)
-
-        case .restricted, .denied:
-            return (false, LocationStatus.kRestricted)
-
-        @unknown default:
-            return (false, "")
-        }
-    } else {
-        return (false, "")
-    }
 }

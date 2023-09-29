@@ -73,7 +73,7 @@ class SettingVC: UIViewController {
     //MARK: - UserDefault Data Clear Method
     private func userDefaultDataClear() {
 
-        UserDefaults.standard.removeObject(forKey: UserDefaultsKey.kBookMarkCity)
+        UserDefaults.standard.removeObject(forKey: UserDefaultsKey.kBookmarkCities)
         UserDefaults.standard.removeObject(forKey: UserDefaultsKey.kUnitType)
         UserDefaults.standard.synchronize()
 
