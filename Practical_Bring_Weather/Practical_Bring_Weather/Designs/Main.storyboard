@@ -60,7 +60,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WCZ-pM-Hck">
-                                <rect key="frame" x="20" y="30" width="69" height="30"/>
+                                <rect key="frame" x="20" y="30" width="69" height="29.5"/>
                                 <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="24"/>
                                 <color key="textColor" name="AppPrimary"/>
                                 <nil key="highlightedColor"/>
@@ -84,24 +84,47 @@
             <objects>
                 <viewController storyboardIdentifier="HelpVC" id="fZr-Dj-cSh" customClass="HelpVC" customModule="Practical_Bring_Weather" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Y0w-Cz-s8b">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Help" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="78a-2Y-gMA">
-                                <rect key="frame" x="20" y="30" width="54" height="30"/>
+                                <rect key="frame" x="20" y="30" width="50" height="28"/>
                                 <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="24"/>
                                 <color key="textColor" name="AppPrimary"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qzn-7O-bI1">
+                                <rect key="frame" x="20" y="78" width="335" height="520"/>
+                                <color key="backgroundColor" name="AppBackground"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="KrR-Jb-DVH">
+                                <rect key="frame" x="169" y="290.5" width="37" height="37"/>
+                                <color key="color" name="AppPrimary"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="gBv-ac-3mC"/>
                         <color key="backgroundColor" name="AppBackground"/>
                         <constraints>
+                            <constraint firstItem="KrR-Jb-DVH" firstAttribute="centerY" secondItem="Y0w-Cz-s8b" secondAttribute="centerY" id="0yW-NX-3V1"/>
+                            <constraint firstAttribute="trailing" secondItem="qzn-7O-bI1" secondAttribute="trailing" constant="20" id="48z-xl-3jq"/>
+                            <constraint firstItem="qzn-7O-bI1" firstAttribute="leading" secondItem="Y0w-Cz-s8b" secondAttribute="leading" constant="20" id="4u2-zt-O95"/>
+                            <constraint firstItem="KrR-Jb-DVH" firstAttribute="centerX" secondItem="Y0w-Cz-s8b" secondAttribute="centerX" id="8lA-bn-HFc"/>
                             <constraint firstItem="78a-2Y-gMA" firstAttribute="top" secondItem="gBv-ac-3mC" secondAttribute="top" constant="10" id="FUx-RW-nIe"/>
                             <constraint firstItem="78a-2Y-gMA" firstAttribute="leading" secondItem="gBv-ac-3mC" secondAttribute="leading" constant="20" id="R17-AN-IWv"/>
+                            <constraint firstItem="qzn-7O-bI1" firstAttribute="top" secondItem="78a-2Y-gMA" secondAttribute="bottom" constant="20" id="WrJ-Vw-wgS"/>
+                            <constraint firstAttribute="bottom" secondItem="qzn-7O-bI1" secondAttribute="bottom" constant="20" id="n9O-rR-seI"/>
                         </constraints>
                     </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
                     <tabBarItem key="tabBarItem" title="Help" image="ic_help" id="RQZ-Jh-lP2"/>
+                    <connections>
+                        <outlet property="activityIndicator" destination="KrR-Jb-DVH" id="0bR-AR-peZ"/>
+                        <outlet property="webKit" destination="qzn-7O-bI1" id="1GA-Ny-JSr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rns-Jy-gKC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -116,7 +139,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Setting" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JUE-O8-2Nn">
-                                <rect key="frame" x="20" y="30" width="85.5" height="30"/>
+                                <rect key="frame" x="20" y="30" width="85.5" height="29.5"/>
                                 <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="24"/>
                                 <color key="textColor" name="AppPrimary"/>
                                 <nil key="highlightedColor"/>

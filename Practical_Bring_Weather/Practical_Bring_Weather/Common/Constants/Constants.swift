@@ -60,6 +60,7 @@ enum WebServiceURL {
     static let weatherURL = mainURL + "weather?"
 
     static let iconURL = "https://openweathermap.org/img/wn/"
+    static let helpURL = "https://openweathermap.org"
 }
 
 //MARK: - Web Service Parameters

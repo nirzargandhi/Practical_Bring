@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E640F7282AC6A38400E2249C /* HelpVC+WKNavigationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E640F7272AC6A38400E2249C /* HelpVC+WKNavigationDelegate.swift */; };
 		E6747F342AC68773001BB3E7 /* TabbarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6747F332AC68773001BB3E7 /* TabbarVC.swift */; };
 		E6747F392AC68997001BB3E7 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6747F382AC68997001BB3E7 /* HomeVC.swift */; };
 		E6747F3D2AC689F9001BB3E7 /* HelpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6747F3C2AC689F9001BB3E7 /* HelpVC.swift */; };
@@ -58,6 +59,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E640F7272AC6A38400E2249C /* HelpVC+WKNavigationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HelpVC+WKNavigationDelegate.swift"; sourceTree = "<group>"; };
 		E6747F332AC68773001BB3E7 /* TabbarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarVC.swift; sourceTree = "<group>"; };
 		E6747F382AC68997001BB3E7 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		E6747F3C2AC689F9001BB3E7 /* HelpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpVC.swift; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				E6747F3C2AC689F9001BB3E7 /* HelpVC.swift */,
+				E640F7272AC6A38400E2249C /* HelpVC+WKNavigationDelegate.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -520,6 +523,7 @@
 			files = (
 				E6CF81682AC6001A008D9615 /* ServiceRequest.swift in Sources */,
 				E6747F3D2AC689F9001BB3E7 /* HelpVC.swift in Sources */,
+				E640F7282AC6A38400E2249C /* HelpVC+WKNavigationDelegate.swift in Sources */,
 				E6CF81612AC5FF7F008D9615 /* UIViewController+Extension.swift in Sources */,
 				E6747F342AC68773001BB3E7 /* TabbarVC.swift in Sources */,
 				E6CF816B2AC6001A008D9615 /* GeneralResponseModel.swift in Sources */,
