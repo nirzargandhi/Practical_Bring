@@ -4,17 +4,6 @@
 
 import UIKit
 
-//MARK: - Colors
-extension UIColor {
-
-    class func appBackgroundColor() -> UIColor { return UIColor(named: "AppBackground")! }
-    class func appGrayColor() -> UIColor { return UIColor(named: "AppGray")! }
-    class func appPrimaryColor() -> UIColor { return UIColor(named: "AppPrimary")! }
-    class func appRedColor() -> UIColor { return UIColor(named: "AppRed")! }
-    class func appToastMessageBgColor() -> UIColor { return UIColor(named: "AppToastMessageBg")! }
-    class func appToastMessageFontColor() -> UIColor { return UIColor(named: "AppToastMessageFont")! }
-}
-
 //MARK: - StoryBoard Identifier's
 enum AllStoryBoard {
 
@@ -49,6 +38,9 @@ enum AlertMessage {
     static let msgError500 = "Error code 500 or more"
     static let msgError402 = "Payment required, go to coins packages"
     static let msgError403 = "User forbidden"
+
+    //Data Clear Message
+    static let msgDataClearSuccess = "Data has been cleared successfully"
 }
 
 //MARK: - Web Service URLs
@@ -77,6 +69,7 @@ enum WebServiceParameter {
 enum UserDefaultsKey {
 
     static let kBookMarkCity = "bookmark_city"
+    static let kUnitType = "unit_type" //1-Metric & 2-Imperial
 }
 
 //MARK: - DateTime Format
@@ -102,6 +95,13 @@ enum Fonts {
 
     static let InterBold16 = UIFont(name: "Inter-Bold", size: 16) ?? UIFont.systemFont(ofSize: 16, weight: .bold)
     static let InterRegular14 = UIFont(name: "Inter-Regular", size: 14) ?? UIFont.systemFont(ofSize: 14, weight: .regular)
+}
+
+//MARK: - Fonts
+enum UnitType {
+
+    static let kMetric = "metric"
+    static let kImperial = "imperial"
 }
 
 //MARK: - Open Weather APIKey

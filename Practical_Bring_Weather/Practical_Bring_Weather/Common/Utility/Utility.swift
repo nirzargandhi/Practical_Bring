@@ -131,6 +131,11 @@ struct Utility {
         return dateFormatter!
     }
 
+    //MARK: - Set Default Unit Type Method
+    func setDefaultUnitType() {
+        setUserDefault(1, key: UserDefaultsKey.kUnitType)
+    }
+
     //MARK: - Set Root TabbarVC Method
     func setRootTabbarVC() {
         let objTabbarVC = AllStoryBoard.Main.instantiateViewController(withIdentifier: ViewControllerName.kTabbarVC) as? TabbarVC
@@ -157,29 +162,26 @@ struct Platform {
 
 //MARK: - UserDefault Methods
 func setUserDefault<T>(_ object : T  , key : String) {
+
     let defaults = UserDefaults.standard
     defaults.set(object, forKey: key)
+
     UserDefaults.standard.synchronize()
 }
 
 func getUserDefault(_ key: String) -> AnyObject? {
+
     let defaults = UserDefaults.standard
 
     if let name = defaults.value(forKey: key){
         return name as AnyObject?
     }
+
     return nil
 }
 
 func isKeyPresentInUserDefaults(key: String) -> Bool {
     return UserDefaults.standard.object(forKey: key) != nil
-}
-
-//MARK: - UserDefault Data Clear Method
-func userDefaultDataClear() {
-
-    UserDefaults.standard.removeObject(forKey: UserDefaultsKey.kBookMarkCity)
-    UserDefaults.standard.synchronize()
 }
 
 //MARK: - Location Enabled & Disabled Check Method
