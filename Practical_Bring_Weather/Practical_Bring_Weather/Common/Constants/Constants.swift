@@ -24,7 +24,10 @@ enum AllStoryBoard {
 //MARK: - ViewController Names
 enum ViewControllerName {
 
-    static let kDashboardVC = "DashboardVC"
+    static let kTabbarVC = "TabbarVC"
+    static let kHomeVC = "HomeVC"
+    static let kHelpVC = "HelpVC"
+    static let kSettingVC = "SettingVC"
 }
 
 //MARK: - Cell Identifiers

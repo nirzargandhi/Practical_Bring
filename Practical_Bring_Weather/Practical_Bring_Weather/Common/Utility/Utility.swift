@@ -130,6 +130,14 @@ struct Utility {
         }
         return dateFormatter!
     }
+
+    //MARK: - Set Root TabbarVC Method
+    func setRootTabbarVC() {
+        let objTabbarVC = AllStoryBoard.Main.instantiateViewController(withIdentifier: ViewControllerName.kTabbarVC) as? TabbarVC
+        let navigationViewController = UINavigationController(rootViewController: objTabbarVC!)
+        appDelegate?.window?.rootViewController = navigationViewController
+        appDelegate?.window?.makeKeyAndVisible()
+    }
 }
 
 //MARK: - Main Thread Method
